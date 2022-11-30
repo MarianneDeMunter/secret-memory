@@ -6,7 +6,7 @@ type GameMenuProps = {
 
 export default function GameMenu({ newGame, saveGame, moves }: GameMenuProps) {
   return (
-    <div className='header grid grid-cols-3 justify-items-center items-center text-svDarkBlue bg-svBlue h-fit w-full absolute top-0 left-0 '>
+    <div className='header grid grid-cols-3 justify-items-center items-center text-svDarkBlue bg-svBlue h-fit max-h-28 w-full absolute top-0 left-0 '>
       <div
         className='difficultyButton menuButton border-svDarkBlue border-2 transition-all'
         onClick={newGame}
