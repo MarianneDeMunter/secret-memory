@@ -136,6 +136,7 @@ export default function MemoryBoard() {
     setMatchedCards([]);
     setSavedMatchedCards([]);
     setGameFinished(false);
+    setMoves(0);
   };
 
   const saveGame = () => {
