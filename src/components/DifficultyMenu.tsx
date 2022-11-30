@@ -14,7 +14,7 @@ export default function DifficultyMenu({
 }: DifficultyMenuProps) {
   const loadSavedGame = loadGame;
   return (
-    <div className='difficultyContainer bg-svBlue rounded-lg text-svDarkBlue p-6 max-w-lg w-[90vw]'>
+    <div className='difficultyContainer bg-svBlue rounded-lg text-svDarkBlue p-6 max-w-lg w-[90vw] text-center'>
       <h1 className='text-white mb-2 text-4xl font-bold text-center'>
         Secret Memory
       </h1>

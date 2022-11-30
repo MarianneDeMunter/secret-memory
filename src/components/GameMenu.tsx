@@ -13,7 +13,7 @@ export default function GameMenu({ newGame, saveGame, moves }: GameMenuProps) {
       >
         <p>Nieuw Spel Starten</p>
       </div>
-      <div className='difficultyButton menuButton rounded-lg pointer-events-none '>
+      <div className='difficultyButton menuButton movesCounter pointer-events-none '>
         <p>Aantal zetten</p>
         <p>{moves}</p>
       </div>
